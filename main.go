@@ -52,6 +52,14 @@ func main() {
 
 	//k := distinctPowers()
 	//fmt.Println(k)
-	k := digitFifthPowers(5)
+	//k := digitFifthPowers(5)
+	//fmt.Println(k)
+	//for i := 1; i < 11; i++ {
+	//	k := coinSums(i)
+	//	fmt.Println(i, ":", k)
+	//}
+
+	k := coinSums(200)
 	fmt.Println(k)
+
 }
