@@ -59,7 +59,10 @@ func main() {
 	//	fmt.Println(i, ":", k)
 	//}
 
-	k := coinSums(200)
+	//k := coinSums(200)
+	//fmt.Println(k)
+
+	k := pandigitalProducts()
 	fmt.Println(k)
 
 }
