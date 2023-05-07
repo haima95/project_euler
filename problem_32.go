@@ -16,62 +16,7 @@ HINT: Some products can be obtained in more than one way so be sure to only incl
 
 */
 
-func test() int {
-	ans := 0
-	for i := 1; i < 1000000; i++ {
-		tmp := make([]bool, 10)
-		t := i
-		for t > 0 {
-			if tmp[t%10] {
-				t = -1
-				break
-			}
-			tmp[t%10] = true
-			t /= 10
-		}
-		if t == -1 {
-			continue
-		}
-		for j := i + 1; j < 1000000; j++ {
-			t = j
-			for t > 0 {
-				if tmp[t%10] {
-					t = -1
-					break
-				}
-				tmp[t%10] = true
-				t /= 10
-			}
-			if t == -1 {
-				continue
-			}
-			t = j * i
-			for t > 0 {
-				if tmp[t%10] {
-					t = -1
-					break
-				}
-				tmp[t%10] = true
-				t /= 10
-			}
-			if t == -1 {
-				continue
-			}
-			k := 1
-			for ; k < 10; k++ {
-				if !tmp[k] {
-					break
-				}
-			}
-			if k == 10 {
-				ans += i * j
-				fmt.Println(i, j, ":", j*i)
-			}
-		}
-	}
-	return ans
-}
-
+// 因为1到9个数字9位，那么只有2位乘以3位得到4位，或者1位乘以4位得到4位满足条件
 func pandigitalProducts() int {
 	ans := 0
 	kkk := make(map[int]bool)
