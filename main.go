@@ -62,7 +62,10 @@ func main() {
 	//k := coinSums(200)
 	//fmt.Println(k)
 
-	k := pandigitalProducts()
+	//k := pandigitalProducts()
+	//fmt.Println(k)
+
+	k := digitCancellingFractions()
 	fmt.Println(k)
 
 }
