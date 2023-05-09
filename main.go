@@ -65,7 +65,10 @@ func main() {
 	//k := pandigitalProducts()
 	//fmt.Println(k)
 
-	k := digitCancellingFractions()
+	//k := digitCancellingFractions()
+	//fmt.Println(k)
+
+	k := digitFactorials()
 	fmt.Println(k)
 
 }
