@@ -71,7 +71,10 @@ func main() {
 	//k := digitFactorials()
 	//fmt.Println(k)
 
-	k := circularPrimes(1000000)
+	//k := circularPrimes(1000000)
+	//fmt.Println(k)
+
+	k := double_basePalindromes()
 	fmt.Println(k)
 
 }
