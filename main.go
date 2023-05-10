@@ -68,7 +68,10 @@ func main() {
 	//k := digitCancellingFractions()
 	//fmt.Println(k)
 
-	k := digitFactorials()
+	//k := digitFactorials()
+	//fmt.Println(k)
+
+	k := circularPrimes(1000000)
 	fmt.Println(k)
 
 }
