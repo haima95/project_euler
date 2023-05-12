@@ -74,7 +74,10 @@ func main() {
 	//k := circularPrimes(1000000)
 	//fmt.Println(k)
 
-	k := double_basePalindromes()
+	//k := double_basePalindromes()
+	//fmt.Println(k)
+	
+	k := truncatablePrimes()
 	fmt.Println(k)
 
 }
