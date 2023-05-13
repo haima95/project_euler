@@ -76,8 +76,11 @@ func main() {
 
 	//k := double_basePalindromes()
 	//fmt.Println(k)
-	
-	k := truncatablePrimes()
+
+	//k := truncatablePrimes()
+	//fmt.Println(k)
+
+	k := pandigitalMultiples()
 	fmt.Println(k)
 
 }
