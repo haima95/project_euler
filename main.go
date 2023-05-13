@@ -80,7 +80,13 @@ func main() {
 	//k := truncatablePrimes()
 	//fmt.Println(k)
 
-	k := pandigitalMultiples()
+	//k := pandigitalMultiples()
+	//fmt.Println(k)
+
+	//k := integerRightTriangles()
+	//fmt.Println(k)
+
+	k := champernownesConstant()
 	fmt.Println(k)
 
 }
