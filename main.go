@@ -89,7 +89,9 @@ func main() {
 	//k := champernownesConstant()
 	//fmt.Println(k)
 
-	k := pandigitalPrime()
-	fmt.Println(k)
+	//k := pandigitalPrime()
+	//fmt.Println(k)
 
+	k := codedTriangleNumbers()
+	fmt.Println(k)
 }
