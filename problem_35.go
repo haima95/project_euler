@@ -41,7 +41,7 @@ func circularPrimes(m int) int {
 		j := 0
 		t = i
 		for j < n {
-			if !isPrime2(t) {
+			if !isPrime(t) {
 				match = false
 			}
 			arr = append(arr, t)
@@ -57,13 +57,4 @@ func circularPrimes(m int) int {
 	}
 	fmt.Println(result)
 	return len(result)
-}
-
-func isPrime2(n int) bool {
-	for i := 2; i*i <= n; i++ {
-		if n%i == 0 {
-			return false
-		}
-	}
-	return true
 }

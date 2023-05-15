@@ -23,7 +23,7 @@ func truncatablePrimes() int {
 		i := 0
 		for ; i < n; i++ {
 			k = k*10 + base[i]
-			if !isPrime3(k) {
+			if !isPrime(k) {
 				break
 			}
 		}
@@ -33,7 +33,7 @@ func truncatablePrimes() int {
 			m := 1
 			for ; i > 0; i-- {
 				k1 = base[i]*m + k1
-				if !isPrime3(k1) {
+				if !isPrime(k1) {
 					break
 				}
 				m *= 10
@@ -61,16 +61,4 @@ func truncatablePrimes() int {
 		ans += v
 	}
 	return ans
-}
-
-func isPrime3(n int) bool {
-	if n < 2 {
-		return false
-	}
-	for i := 2; i*i <= n; i++ {
-		if n%i == 0 {
-			return false
-		}
-	}
-	return true
 }

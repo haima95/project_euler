@@ -86,7 +86,10 @@ func main() {
 	//k := integerRightTriangles()
 	//fmt.Println(k)
 
-	k := champernownesConstant()
+	//k := champernownesConstant()
+	//fmt.Println(k)
+
+	k := pandigitalPrime()
 	fmt.Println(k)
 
 }
