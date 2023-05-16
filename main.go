@@ -92,6 +92,9 @@ func main() {
 	//k := pandigitalPrime()
 	//fmt.Println(k)
 
-	k := codedTriangleNumbers()
+	//k := codedTriangleNumbers()
+	//fmt.Println(k)
+
+	k := subStringDivisibility()
 	fmt.Println(k)
 }
