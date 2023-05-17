@@ -95,6 +95,12 @@ func main() {
 	//k := codedTriangleNumbers()
 	//fmt.Println(k)
 
-	k := subStringDivisibility()
+	//k := subStringDivisibility()
+	//fmt.Println(k)
+
+	//k := pentagonNumbers()
+	//fmt.Println(k)
+
+	k := triangularPentagonalAndHexagonal()
 	fmt.Println(k)
 }
