@@ -101,6 +101,9 @@ func main() {
 	//k := pentagonNumbers()
 	//fmt.Println(k)
 
-	k := triangularPentagonalAndHexagonal()
+	//k := triangularPentagonalAndHexagonal()
+	//fmt.Println(k)
+
+	k := goldbachsOtherConjecture()
 	fmt.Println(k)
 }
