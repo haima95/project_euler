@@ -104,6 +104,9 @@ func main() {
 	//k := triangularPentagonalAndHexagonal()
 	//fmt.Println(k)
 
-	k := goldbachsOtherConjecture()
+	//k := goldbachsOtherConjecture()
+	//fmt.Println(k)
+
+	k := distinctPrimesFactors(4)
 	fmt.Println(k)
 }
