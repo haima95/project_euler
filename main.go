@@ -110,6 +110,9 @@ func main() {
 	//k := distinctPrimesFactors(4)
 	//fmt.Println(k)
 
-	k := selfPowers(1000)
+	//k := selfPowers(1000)
+	//fmt.Println(k)
+
+	k := primePermutations()
 	fmt.Println(k)
 }
