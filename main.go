@@ -107,6 +107,9 @@ func main() {
 	//k := goldbachsOtherConjecture()
 	//fmt.Println(k)
 
-	k := distinctPrimesFactors(4)
+	//k := distinctPrimesFactors(4)
+	//fmt.Println(k)
+
+	k := selfPowers(1000)
 	fmt.Println(k)
 }
