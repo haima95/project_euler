@@ -113,6 +113,9 @@ func main() {
 	//k := selfPowers(1000)
 	//fmt.Println(k)
 
-	k := primePermutations()
+	//k := primePermutations()
+	//fmt.Println(k)
+
+	k := consecutivePrimeSum(1000000)
 	fmt.Println(k)
 }
