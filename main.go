@@ -116,6 +116,12 @@ func main() {
 	//k := primePermutations()
 	//fmt.Println(k)
 
-	k := consecutivePrimeSum(1000000)
+	//k := consecutivePrimeSum(1000000)
+	//fmt.Println(k)
+
+	//k := primeDigitReplacements(7)
+	//fmt.Println(k)
+
+	k := permutedMultiples()
 	fmt.Println(k)
 }
