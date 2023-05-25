@@ -122,6 +122,9 @@ func main() {
 	//k := primeDigitReplacements(7)
 	//fmt.Println(k)
 
-	k := permutedMultiples()
+	//k := permutedMultiples()
+	//fmt.Println(k)
+
+	k := combinatoricSelections()
 	fmt.Println(k)
 }
