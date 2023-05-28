@@ -125,6 +125,12 @@ func main() {
 	//k := permutedMultiples()
 	//fmt.Println(k)
 
-	k := combinatoricSelections()
+	//k := combinatoricSelections()
+	//fmt.Println(k)
+
+	//k := pokerHands()
+	//fmt.Println(k)
+
+	k := powerfulDigitSum()
 	fmt.Println(k)
 }
