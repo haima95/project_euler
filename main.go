@@ -131,6 +131,9 @@ func main() {
 	//k := pokerHands()
 	//fmt.Println(k)
 
-	k := powerfulDigitSum()
+	//k := powerfulDigitSum()
+	//fmt.Println(k)
+
+	k := squareRootConvergents()
 	fmt.Println(k)
 }
