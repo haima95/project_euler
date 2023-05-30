@@ -134,6 +134,9 @@ func main() {
 	//k := powerfulDigitSum()
 	//fmt.Println(k)
 
-	k := squareRootConvergents()
+	//k := squareRootConvergents()
+	//fmt.Println(k)
+
+	k := spiralPrimes()
 	fmt.Println(k)
 }
