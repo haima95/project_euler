@@ -1,5 +1,10 @@
 package main
 
+import (
+	"fmt"
+	"time"
+)
+
 /*   Prime Pair Sets
 
 The primes 3,7,109 and 673, are quite remarkable. By taking any two primes and concatenating them in any order the
@@ -11,6 +16,7 @@ Find the lowest sum for a set of five primes for which any two primes concatenat
 */
 
 func primePairSets() int {
+	start := time.Now()
 	m := 5
 	arr := make([][][]int, 6)
 	arr[1] = append(arr[1], []int{2})
@@ -37,9 +43,11 @@ func primePairSets() int {
 		n += 2
 	}
 	sum := 0
+	fmt.Println(arr[m][0])
 	for _, v := range arr[m][0] {
 		sum += v
 	}
+	fmt.Println("cost: ", time.Now().Second()-start.Second(), "s")
 	return sum
 }
 
