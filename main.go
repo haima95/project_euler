@@ -137,6 +137,9 @@ func main() {
 	//k := squareRootConvergents()
 	//fmt.Println(k)
 
-	k := spiralPrimes()
+	//k := spiralPrimes()
+	//fmt.Println(k)
+
+	k := primePairSets()
 	fmt.Println(k)
 }
