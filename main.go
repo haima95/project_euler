@@ -140,6 +140,9 @@ func main() {
 	//k := spiralPrimes()
 	//fmt.Println(k)
 
-	k := primePairSets()
+	//k := primePairSets()
+	//fmt.Println(k)
+
+	k := cyclicalFigurateNumbers()
 	fmt.Println(k)
 }
