@@ -52,28 +52,6 @@ func cyclicalFigurateNumbers() int {
 		//fmt.Println(i, ":", no)
 		i++
 	}
-	fmt.Println("count")
-	for _, v := range triangle[81] {
-		if v == 28 {
-			fmt.Println("1")
-			break
-		}
-	}
-	for _, v := range square[28] {
-		if v == 82 {
-			fmt.Println("2")
-			break
-		}
-	}
-	for _, v := range pentagonal[82] {
-		if v == 81 {
-			fmt.Println("3")
-			break
-		}
-	}
-	//triangle = map[int][]int{81: []int{28}}
-	//square = map[int][]int{28: []int{82}}
-	//pentagonal = map[int][]int{82: []int{81}}
 	tmp22 := []map[int][]int{triangle, square, pentagonal, hexagonal, heptagonal, octagonal}
 	var tmp1 [][]map[int][]int
 	for i, v := range tmp22 {
