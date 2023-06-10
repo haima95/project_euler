@@ -143,6 +143,12 @@ func main() {
 	//k := primePairSets()
 	//fmt.Println(k)
 
-	k := cyclicalFigurateNumbers()
+	//k := cyclicalFigurateNumbers()
+	//fmt.Println(k)
+
+	//k := cubicPermutations(5)
+	//fmt.Println(k)
+
+	k := powerfulDigitCounts()
 	fmt.Println(k)
 }
